@@ -14,6 +14,6 @@ window.setInterval(function photoA() {
 	imageCount = imageCount + 1;
 	if(imageCount > total){imageCount = 1;}
 	if(imageCount < 1){imageCount = total;}	
-	image.src = "slider_img/pic ("+ imageCount +").jpg";
+	image.src = "slider_img/pics"+ imageCount +").jpg";
 	},5000);
 	
